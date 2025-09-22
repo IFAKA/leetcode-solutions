@@ -5,7 +5,7 @@ class Solution:
         if len(s) != len(t):
             return False
         
-        # inital states
+        # initial states
         ana_list = { char: s.count(char) for char in set(s) }
 
         # loop and validate
